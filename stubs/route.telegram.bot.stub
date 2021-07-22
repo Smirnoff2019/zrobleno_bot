@@ -1,0 +1,17 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+
+/**
+ * --------------------------------------------------------------------------
+ * {name} Telegram Bot Routes
+ * --------------------------------------------------------------------------
+ */
+
+/**
+ * Get 'foo' model resource
+ *
+ * @uri 'foo'
+ * @controller 'FooController'
+ */
+Route::get('foo', 'FooController');
